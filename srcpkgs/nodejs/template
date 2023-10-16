@@ -1,6 +1,6 @@
 # Template file for 'nodejs'
 pkgname=nodejs
-version=18.16.0
+version=20.8.0
 revision=3
 # Need these for host v8 for torque, see https://github.com/nodejs/node/pull/21079
 hostmakedepends="which pkg-config python3-setuptools zlib-devel
@@ -15,7 +15,7 @@ maintainer="Enno Boland <gottox@voidlinux.org>"
 license="MIT"
 homepage="https://nodejs.org/"
 distfiles="https://nodejs.org/dist/v${version}/node-v${version}.tar.gz"
-checksum=6a4f5c5d76e5c50cef673099e56f19bc3266ae363f56ca0ab77dd2f3c5088c6d
+checksum=daa1f39d262b8e07a06c272f2671337f1bfce54000db9662de0dfce3c18fff3c
 python_version=3
 
 build_options="ssl libuv icu nghttp2 cares"
